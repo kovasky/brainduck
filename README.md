@@ -32,4 +32,4 @@ This project is licensed under the [GNU General Public License v3.0] License - s
 
 ## Acknowledgments
 
-* [Esolangs/BytePusher](https://esolangs.org/wiki/Brainfuck)
+* [Esolangs/Brainf*ck](https://esolangs.org/wiki/Brainfuck)
