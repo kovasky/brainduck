@@ -4,7 +4,7 @@ BrainDuck is a Brainf*ck interpreter written in Python
 
 ## Description
 
-Brainf*ck is an esoteric programming language whose entire alphabet consists of 8 symbols and is Turing-complete. I decided to work on this after learning about parsing in my algorithms class.
+Brainf*ck is an esoteric programming language with its entire alphabet consisting of 8 symbols. I decided to work on this after learning about parsing in my algorithms class.
 
 You can read more about it [here](https://esolangs.org/wiki/Brainfuck)
 
@@ -18,13 +18,20 @@ You can read more about it [here](https://esolangs.org/wiki/Brainfuck)
 
 ### Executing program
 
+Sample Brainf*ck code which prints “Hello, Kovasky!”
+```
+-[------->+<]>-.-[->+++++<]>++.+++++++..+++.[->+++++<]>+.------------.--[-->+++++<]>.
+-[-->+++<]>.+++++++.[->+++<]>-.--[--->+<]>--.--------.[--->+<]>.-[---->+<]>+++.
 ```
 
+Interpreting file
+```
+python main.py fileLocation
 ```
 
 ## To Do
 
-* Implement code execution from parse tree
+* Implement Visualizer
 
 ## License
 
@@ -33,3 +40,4 @@ This project is licensed under the [GNU General Public License v3.0] License - s
 ## Acknowledgments
 
 * [Esolangs/Brainf*ck](https://esolangs.org/wiki/Brainfuck)
+* [Brainfuck text generator](https://copy.sh/brainfuck/text.html)

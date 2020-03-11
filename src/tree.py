@@ -17,11 +17,14 @@ class Tree:
     def __iter__(self):
         return tree_iter(self)
 
-    def add_child(self,node):
+    def addChild(self,node):
         self.children.append(node)
 
-    def preorder_values(self):
-        return tree_iter(self)
+    def preOrderValues(self):
+        vals = []
+        for a in self:
+            vals.append(a)
+        return vals
 
 class tree_iter:
     def __init__(self, the_tree):

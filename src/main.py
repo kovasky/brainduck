@@ -1,8 +1,6 @@
 from brainduck import BrainDuck
+import sys
 
 bd = BrainDuck()
 
-bd.parse('example.bf')
-
-for a in bd.tree:
-    print(a)
+bd.run(sys.argv[1])
